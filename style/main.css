@@ -1,0 +1,51 @@
+body {
+    /* background-color: pink; */
+
+}
+
+.page_container {
+    display: flex;
+    justify-content: center;
+}
+
+.content_container {
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.img-and-download-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.dowload_pdf {
+    text-decoration: none;
+    color: white;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.illus-img-2{
+    margin-top: 1rem;
+}
+
+.text_title {
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.dowload_btn {
+    height: 3rem;
+    width: 7rem;
+}

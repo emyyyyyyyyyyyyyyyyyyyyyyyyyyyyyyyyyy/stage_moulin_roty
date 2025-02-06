@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  
+}
+.card{
+    width: auto;
+}
+
+.col-md-4 {
+    margin-bottom: 1.5rem;
+}
+
+.card-img-top {
+    width: 26rem !important;
+    height: 26rem !important;
+    padding: 2rem;
+}
+
+.card-body {
+    max-height: 15rem;
+    height: 11rem;
+}
